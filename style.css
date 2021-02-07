@@ -86,6 +86,7 @@ a {
   font-size: 18px;
   line-height: 1.5em;
   display: flex;
+  color: #9b9b9b;
 }
 
 .main__section-record:not(:last-child) {
@@ -103,10 +104,12 @@ a {
 .main__section-line {
   font-size: 18px;
   line-height: 1.5em;
+  color: #9b9b9b;
+  font-style: normal;
 }
 
-.main__section-line:last-child {
-  /*padding-bottom: 8px;*/
+a.main__section-line:hover {
+  color: #5b5b5b;
 }
 
 .main__subsection-title {
