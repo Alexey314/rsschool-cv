@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1040px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  background-color: #373d48;
+}
+
+.header__photo-box {
+  width: 200px;
+}
+
+.header__photo {
+  width: 100%;
+}
+
+.header__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #9b9b9b;
+}
+
+.header__full-name {
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.header__profession {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  height: 100%;
+}
+
+.main__section-title {
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgb(213, 214, 214);
+  margin-bottom: 16px;
+  color: rgb(55, 61, 72);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.main__work-education {
+  padding: 16px;
+  flex-basis: 70%;
+}
+
+.main__contact-skills {
+  background-color: #f4f4f4;
+  padding: 16px;
+  flex-basis: 30%;
+}
+
+.main__section {
+  padding-bottom: 32px;
+}
+
+.main__section-record {
+  font-size: 18px;
+  line-height: 1.5em;
+  display: flex;
+  color: #9b9b9b;
+}
+
+.main__section-record:not(:last-child) {
+  padding-bottom: 16px;
+}
+
+.main__section-record-date {
+  flex-basis: 25%;
+}
+
+.main__section-record-content {
+  flex-basis: 75%;
+}
+
+.main__section-line {
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #9b9b9b;
+  font-style: normal;
+}
+
+a.main__section-line:hover {
+  color: #5b5b5b;
+}
+
+.main__subsection-title {
+  color: rgb(55, 61, 72);
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
