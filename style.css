@@ -106,6 +106,7 @@ a {
 
 .main__section-record-date {
   flex-basis: 25%;
+  text-align: right;
 }
 
 .main__section-record-content {
@@ -145,3 +146,10 @@ a.main__section-line:hover {
   justify-content: space-between;
 }
 
+.main__section-text-box {
+  padding-top: 8px;
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #9b9b9b;
+  font-style: normal;
+}
