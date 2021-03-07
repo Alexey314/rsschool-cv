@@ -67,6 +67,11 @@ a {
   font-weight: 600;
 }
 
+.text-hor-align_center {
+  text-align: center;
+}
+
+
 .main__work-education {
   padding: 16px;
   flex-basis: 70%;
@@ -118,3 +123,19 @@ a.main__section-line:hover {
   font-weight: 600;
   padding-bottom: 8px;
 }
+
+.main__contacts-list-item,
+.main__language-list-item,
+.main__skill-list-item
+{
+  line-height: 2.5em;
+}
+
+.main__skill-list-item > div
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
