@@ -26,11 +26,26 @@ a {
 }
 
 .header__photo-box {
-  width: 200px;
+  flex-basis: 30%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__photo-link{
+  display: block;
+  height: 90%;
 }
 
 .header__photo {
-  width: 100%;
+  display: block;
+  height: 100%;
+  transition: transform 0.2s;
+}
+
+.header__photo:hover {
+  transform: scale(1.1);
 }
 
 .header__text {
@@ -38,6 +53,7 @@ a {
   flex-direction: column;
   justify-content: center;
   color: #9b9b9b;
+  padding-left: 16px;
 }
 
 .header__full-name {
@@ -67,6 +83,17 @@ a {
   font-weight: 600;
 }
 
+.main__section-subtitle{
+  color: rgb(55, 61, 72);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text-hor-align_center {
+  text-align: center;
+}
+
+
 .main__work-education {
   padding: 16px;
   flex-basis: 70%;
@@ -95,6 +122,7 @@ a {
 
 .main__section-record-date {
   flex-basis: 25%;
+  text-align: right;
 }
 
 .main__section-record-content {
@@ -117,4 +145,81 @@ a.main__section-line:hover {
   font-size: 20px;
   font-weight: 600;
   padding-bottom: 8px;
+}
+
+.main__contacts-list-item,
+.main__language-list-item,
+.main__skill-list-item
+{
+  line-height: 2.5em;
+}
+
+.main__skill-list-item > div
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__section-text-box {
+  padding-top: 8px;
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #9b9b9b;
+  font-style: normal;
+}
+
+.footer {
+  padding: 16px;
+  background-color: #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #373D48;
+  font-style: normal;
+}
+.footer__nav{
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav-list{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav-list-item{
+  transition: transform 0.2s;
+}
+
+.footer__nav-list-item:hover{
+  transform: scale(1.1);
+}
+
+.footer__nav-list-item:not(:last-child){
+  margin-right: 8px;
+}
+
+.footer__nav-list-item-link{
+  display: flex;
+  align-items: center;
+  color: inherit;
+}
+
+.footer__date {
+  /*height: min-content;*/
+  /*display: flex;*/
+  /*align-items: center;*/
+}
+
+.footer__nav-list-item-img{
+  height: 31px;
+}
+
+.text-indent {
+  text-indent: 1em;
 }
