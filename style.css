@@ -153,3 +153,55 @@ a.main__section-line:hover {
   color: #9b9b9b;
   font-style: normal;
 }
+
+.footer {
+  padding: 16px;
+  background-color: #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #373D48;
+  font-style: normal;
+}
+.footer__nav{
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav-list{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav-list-item{
+  transition: transform 0.2s;
+}
+
+.footer__nav-list-item:hover{
+  transform: scale(1.1);
+}
+
+.footer__nav-list-item:not(:last-child){
+  margin-right: 8px;
+}
+
+.footer__nav-list-item-link{
+  display: flex;
+  align-items: center;
+  color: inherit;
+  /*font-style: normal;*/
+}
+
+.footer__date {
+  height: min-content;
+  /*display: flex;*/
+  /*align-items: center;*/
+}
+
+.footer__nav-list-item-rsschool-img{
+  display: block;
+  width: 80px;
+}
