@@ -192,16 +192,15 @@ a.main__section-line:hover {
   display: flex;
   align-items: center;
   color: inherit;
-  /*font-style: normal;*/
 }
 
 .footer__date {
-  height: min-content;
+  /*height: min-content;*/
   /*display: flex;*/
   /*align-items: center;*/
 }
 
-.footer__nav-list-item-rsschool-img{
-  display: block;
-  width: 80px;
+.footer__nav-list-item-img{
+  height: 31px;
 }
+
