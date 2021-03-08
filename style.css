@@ -33,9 +33,19 @@ a {
   justify-content: center;
 }
 
-.header__photo {
+.header__photo-link{
   display: block;
   height: 90%;
+}
+
+.header__photo {
+  display: block;
+  height: 100%;
+  transition: transform 0.2s;
+}
+
+.header__photo:hover {
+  transform: scale(1.1);
 }
 
 .header__text {
