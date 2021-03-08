@@ -220,3 +220,6 @@ a.main__section-line:hover {
   height: 31px;
 }
 
+.text-indent {
+  text-indent: 1em;
+}
